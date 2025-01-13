@@ -1,0 +1,36 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'JetBrains Mono', monospace;
+      background-color: #111;
+      color: #00ff00;
+    }
+
+    .app {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .app-header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ff00;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #00ff00;
+      text-align: center;
+      padding: 10px;
+      border-top: 2px solid #00ff00;
+    }
